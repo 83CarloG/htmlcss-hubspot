@@ -13,6 +13,10 @@ header {
 main {
   background-color: #f4f9fd;
 }
+footer {
+  height: 850px;
+  background: #33475B;
+}
 h1 {
   font-size: 50px;
   color: #33475b;
@@ -60,7 +64,7 @@ p.small{
   width: 1280px;
   margin: auto;
 }
-
+/* Buttons */
 .btn {
   background-color: #E66E50;
   padding: 10px;
@@ -74,6 +78,14 @@ p.small{
 .btn-big {
   padding: 20px 40px;
 }
+.btn-footer {
+  background: #fff;
+  margin: 15px auto;
+  color: #32495b;
+  border: 1px solid #fff;
+  font-size: 14px;
+}
+/* /Buttons */
 .fa-check-circle {
   color: #E66E50;
   margin-right: 10px;
@@ -443,6 +455,36 @@ li.company-logo {
 
 }
 /* /Second section */
-
 /* Main buttom */
 /* /Main */
+
+/* Footer */
+/* Footer links */
+.footer-links {
+  float: left;
+  padding-top: 90px;
+  width: 25%;
+}
+
+h4.title-footer-links {
+  color: #fff;
+  font-size: 18px;
+}
+.footer-links a {
+  color: #cbd6e2;
+  font-size: 14px;
+  text-decoration: none;
+}
+.footer-links li {
+  padding: 10px 0px;
+}
+li.social {
+  display: inline-block;
+  width: 45px;
+  height: 30px;
+}
+li.social i.fab{
+  color: #cbd6e2;
+}
+/* Footer links */
+/* Footer */
