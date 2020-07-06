@@ -45,6 +45,11 @@ img {
   text-align: center;
   display: inline;
 }
+
+p.small{
+  font-size: 14px;
+}
+
 .clearfix::after {
   content: "";
   display: table;
@@ -322,7 +327,7 @@ img.features-slogan-img {
 /* Company numbers  */
 .company-numbers-container {
   background-color: #00B8A9;
-  height: 2000px;
+  height: 850px;
 }
 .company-numbers-text {
   text-align: center;
@@ -336,7 +341,7 @@ img.features-slogan-img {
 .company-numbers-text p {
   padding-bottom: 50px;
 }
-/* /Company numbers  */
+
 /* Company numbers-box  */
 .box-numbers {
   float: left;
@@ -349,7 +354,7 @@ img.features-slogan-img {
 .box-numbers:nth-child(4){
   border-right: none;
 }
-.box-no-border-bottom {
+.box-numbers-special {
   border-bottom: none;
 }
 
@@ -371,7 +376,73 @@ img.features-slogan-img {
   font-size: 10px;
   color: #fff;
 }
+/* /Company numbers-box  */
 
+/* Main buttom */
+/* First section */
+.main-bottom-section {
+  position: relative;
+  height: 850px;
+}
+.main-bottom-section-first {
+  width: 90%;
+  height: 350px;
+  margin: 0px auto;
+  padding: 50px 0px;
 
-/* Company numbers-box  */
+}
+.main-bottom-section-first-left {
+  float: left;
+  width: 20%;
+  text-align: center;
+}
+.main-bottom-section-first-right {
+  float: right;
+  width: 80%;
+}
+li.company-logo {
+  display: inline-block;
+  padding: 10px;
+  width: 150px;
+  height: 75px;
+}
+.main-bottom-section-first-right img.company-logo-img {
+  max-width: 70%;
+  max-height: 70%;
+}
+.main-bottom-section-first-right ul {
+  text-align: right;
+}
+/* /First section */
+/* Second section */
+.main-bottom-section-second  {
+
+}
+.main-bottom-section-second-left {
+  width: 50%;
+  float:left;
+  position: absolute;
+  transform: translateY(-50%);
+  top: 70%;
+  color: #33475b;
+
+}
+.main-bottom-section-second-left p {
+  color: #33475b;
+  margin: 30px 0px;
+  text-align: justify;
+}
+.main-bottom-section-second-right {
+  float: right;
+  width: 50%;
+  height: 500px;
+  background-image: url(../img/woman.webp);
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-position: top right;
+
+}
+/* /Second section */
+
+/* Main buttom */
 /* /Main */
