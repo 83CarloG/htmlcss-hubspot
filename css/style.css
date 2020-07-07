@@ -51,6 +51,7 @@ p.small{
   font-size: 14px;
 }
 
+
 .clearfix::after {
   content: "";
   display: table;
@@ -62,6 +63,9 @@ p.small{
   margin: auto;
 }
 /* Buttons */
+button:hover {
+  cursor: pointer;
+}
 .btn {
   background-color: #E66E50;
   padding: 10px;
@@ -70,7 +74,6 @@ p.small{
   font-family: 'Nunito Sans', sans-serif;
   font-weight: 600;
   font-size: 18px;
-  color: #fffefe;
 }
 .btn-big {
   padding: 20px 40px;
@@ -82,6 +85,19 @@ p.small{
   border: 1px solid #fff;
   font-size: 14px;
 }
+.item-nav a:visited,.item-nav a:active, .item-nav a:link, .item-nav a:hover {
+  color: #868788;
+  text-decoration: none;
+}
+.item-nav .btn > a {
+  text-decoration: none;
+  color: #fffefe;
+}
+.btn > a {
+  text-decoration: none;
+  color: #fffefe;
+}
+
 /* /Buttons */
 .fa-check-circle {
   color: #E66E50;
@@ -100,10 +116,6 @@ li.check-circle {
   display: inline-block;
   padding: 0px 15px;
   line-height: 80px;
-}
-.item-nav a:visited,.item-nav a:active, .item-nav a:link, .item-nav a:hover {
-  color: #868788;
-  text-decoration: none;
 }
 
 /* Header-top-one */
@@ -150,6 +162,8 @@ li.check-circle {
 }
 .btn-transparent {
   background: none;
+}
+.item-nav .btn-transparent  a {
   color: #E66E50;
 }
 /* /Header-top-one-nav-right  */
@@ -423,8 +437,9 @@ li.company-logo {
   height: 75px;
 }
 .main-bottom-section-first-right img.company-logo-img {
-  width: 100px;
-  height: 30px
+  min-height: 50%;
+  width: 100%;
+  vertical-align: middle;
 }
 .main-bottom-section-first-right ul {
   text-align: right;
