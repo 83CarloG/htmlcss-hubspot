@@ -43,9 +43,6 @@ hr {
   border: 1px  solid  #899397;
 }
 img {
-  height: 150px;
-  width: 150px;
-  margin-bottom: 20px;
   text-align: center;
   display: inline;
 }
@@ -221,7 +218,13 @@ li.check-circle {
 
 
 /* Main */
+img.features-spot-left-img, img.info-img {
+  height: 150px;
+  width: 150px;
+  margin: 20px;
+}
 /* Features-slogan */
+
 .features-slogan {
   text-align: center;
   height: 370px;
@@ -414,13 +417,14 @@ img.features-slogan-img {
 }
 li.company-logo {
   display: inline-block;
-  padding: 10px;
+  margin: 5px auto;
+  padding: 20px;
   width: 150px;
   height: 75px;
 }
 .main-bottom-section-first-right img.company-logo-img {
-  max-width: 70%;
-  max-height: 70%;
+  width: 100px;
+  height: 30px
 }
 .main-bottom-section-first-right ul {
   text-align: right;
