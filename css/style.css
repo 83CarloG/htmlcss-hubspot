@@ -78,7 +78,7 @@ p.small{
 .btn-footer {
   background: #fff;
   margin: 15px auto;
-  color: #32495b;
+  color: #33475b;;
   border: 1px solid #fff;
   font-size: 14px;
 }
@@ -96,6 +96,14 @@ p.small{
 }
 button:hover {
   cursor: pointer;
+  opacity: 0.5;
+}
+.btn-footer:hover {
+  opacity: 0.8;
+}
+.btn-transparent:hover {
+  background-color: #fff1ee;
+  opacity: 1;
 }
 /* /Buttons */
 .fa-check-circle {
@@ -509,6 +517,9 @@ li.social {
 }
 li.social i.fab{
   color: #cbd6e2;
+}
+.btn-footer  a {
+  color: #33475b;
 }
 /* /Footer links */
 /* Footer language */
