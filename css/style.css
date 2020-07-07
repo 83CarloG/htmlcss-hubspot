@@ -63,9 +63,6 @@ p.small{
   margin: auto;
 }
 /* Buttons */
-button:hover {
-  cursor: pointer;
-}
 .btn {
   background-color: #E66E50;
   padding: 10px;
@@ -97,7 +94,9 @@ button:hover {
   text-decoration: none;
   color: #fffefe;
 }
-
+button:hover {
+  cursor: pointer;
+}
 /* /Buttons */
 .fa-check-circle {
   color: #E66E50;
@@ -351,6 +350,12 @@ img.features-slogan-img {
 }
 .col-info .btn{
   margin: 20px auto;
+}
+.zoom {
+  transition: transform .2s;
+}
+.zoom:hover {
+  transform: scale(1.01);
 }
 /* /Features-spot */
 /* Company numbers  */
