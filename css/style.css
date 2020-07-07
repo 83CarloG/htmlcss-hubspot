@@ -15,7 +15,7 @@ main {
   background-color: #f4f9fd;
 }
 footer {
-  height: 850px;
+  height: 770px;
   background: #33475B;
 }
 h1 {
@@ -51,7 +51,9 @@ img {
 p.small{
   font-size: 14px;
 }
-
+strong {
+  font-weight: 700;
+}
 
 .clearfix::after {
   content: "";
@@ -221,7 +223,7 @@ li.check-circle {
 
 /* Header-main */
 .header-main{
-  height: 620px;
+  height: 695px;
   background-color: #fff2ef;
   background-image: url(../img/jumbotron.png);
   background-position: bottom right;
@@ -230,9 +232,9 @@ li.check-circle {
 .header-main-text{
   float:left;
   position: absolute;
-  width: 500px;
+  width: 560px;
   transform: translateY(-50%);
-  top: 50%;
+  top: 44%;
   color: #33475b;
 }
 .header-main-text p {
@@ -255,7 +257,7 @@ li.check-circle {
 
 /* Main */
 img.features-spot-left-img, img.info-img {
-  height: 150px;
+  height: 100px;
   width: 150px;
   margin: 20px;
 }
@@ -293,7 +295,7 @@ img.features-slogan-img {
   float:left;
   width: 24%;
   transform: translateY(-50%);
-  top: 50%;
+  top: 44%;
   left: 0%;
   text-align: center;
   margin-left: 3%;
@@ -306,7 +308,7 @@ img.features-slogan-img {
   width: 70%;
   transform: translateY(-50%);
   top: 50%;
-  left: 27%;
+  left: 30%;
   margin-right: 3%;
 }
 .features-spot-right h3, .features-spot-right p{
@@ -322,7 +324,7 @@ img.features-slogan-img {
 }
 .features-spot-right hr {
   display: inline-block;
-  width: 70%;
+  width: 60%;
   vertical-align: middle;
 }
 .features-spot-right li {
@@ -332,14 +334,12 @@ img.features-slogan-img {
 
 /* Features-spot */
 .info {
-
-
 }
 .col-info {
   float: left;
   width: calc((100% / 3) - 40px);
   background-color: white;
-  padding: 0px 20px;
+  padding: 0px 31px;
   box-shadow: 0px 0px 2px 0px rgba(51,71,91,1);
   border-radius: 5px;
   text-align: center;
@@ -348,9 +348,6 @@ img.features-slogan-img {
 }
 .col-info-middle {
   margin: 0px 60px;
-}
-.col-info .info-img {
-  height: 150px;
 }
 .info .col-info h3 {
   margin-bottom: 40px;
@@ -372,7 +369,8 @@ img.features-slogan-img {
   text-align: left;
 }
 .col-info .btn{
-  margin: 20px auto;
+  margin-top: 40px;
+  margin-bottom: 20px;
 }
 .zoom {
   transition: transform .2s;
@@ -383,8 +381,8 @@ img.features-slogan-img {
 /* /Features-spot */
 /* Company numbers  */
 .company-numbers-container {
-  background-color: #00B8A9;
-  height: 850px;
+  background-image: linear-gradient(45deg,#00a4bd,#00bda5);
+  height: 770px;
 }
 .company-numbers-text {
   text-align: center;
@@ -453,6 +451,14 @@ img.features-slogan-img {
   width: 20%;
   text-align: center;
 }
+.main-bottom-section-first-left  p {
+  padding-right: 50px;
+  text-align: left;
+}
+.main-bottom-section-first-left h2 {
+  text-align: left;
+  margin-bottom: 40px;
+}
 .main-bottom-section-first-right {
   float: right;
   width: 80%;
@@ -486,10 +492,14 @@ li.company-logo {
   color: #33475b;
 
 }
-.main-bottom-section-second-left p {
+.main-bottom-section-second-left > p {
   color: #33475b;
-  margin: 30px 0px;
+  margin: 20px 0px;
+  padding-right: 50px;
   text-align: justify;
+}
+.main-bottom-section-second-left > .btn  {
+  margin: 30px 0px;
 }
 .main-bottom-section-second-right {
   float: right;
@@ -507,6 +517,9 @@ li.company-logo {
 
 /* Footer */
 /* Footer links */
+.footer-menu{
+  margin-bottom: 40px;
+}
 .footer-links {
   float: left;
   padding-top: 90px;
@@ -581,7 +594,6 @@ li.languages-items {
   padding: 0px 10px;
   color: #cbd6e2;
 }
-
 /* /Footer bottom  */
 
 
