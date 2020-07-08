@@ -410,15 +410,20 @@ img.features-slogan-img {
 }
 
 /* Company numbers-box  */
+.company-numbers-box {
+  border-bottom: 1px solid #fff;
+}
+.company-numbers-box:last-child {
+  border: none;
+}
 .box-numbers {
   float: left;
-  width: calc(1280px/4);
+  width: 25%;
   text-align: center;
   border-right: 1px solid #fff;
-  border-bottom: 1px solid #fff;
   padding: 30px 0px;
 }
-.box-numbers:nth-child(4){
+.box-numbers:last-child{
   border-right: none;
 }
 .box-numbers-special {
@@ -480,7 +485,6 @@ li.company-logo {
   margin: 5px auto;
   padding: 20px;
   width: 150px;
-  height: 75px;
 }
 .main-bottom-section-first-right img.company-logo-img {
   min-height: 50%;
