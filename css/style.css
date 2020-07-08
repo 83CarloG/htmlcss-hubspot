@@ -2,12 +2,13 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  color: #33475b;
+}
+body {
   font-family: 'Nunito Sans', sans-serif;
   font-weight: 600;
   font-size: 18px;
-  color: #33475b;
 }
-
 header {
   position: relative;
 }
@@ -65,46 +66,51 @@ strong {
   width: 1280px;
   margin: auto;
 }
-/* Buttons */
-.btn {
-  background-color: #E66E50;
-  padding: 10px;
-  border: 1px solid #E66E50;
-  border-radius: 5px;
-  font-family: 'Nunito Sans', sans-serif;
-  font-weight: 600;
-  font-size: 18px;
-}
-.btn-big {
-  padding: 20px 40px;
-}
-.btn-footer {
-  background: #fff;
-  margin: 15px auto;
-  color: #33475b;;
-  border: 1px solid #fff;
-  font-size: 14px;
-}
 .item-nav a:visited,.item-nav a:active, .item-nav a:link, .item-nav a:hover {
   color: #868788;
   text-decoration: none;
 }
-.item-nav .btn > a {
+/* Buttons */
+.link {
+  display: inline-block;
+  background-color: #E66E50;
+  padding: 10px;
+  border: 1px solid #E66E50;
+  border-radius: 5px;
+  color: #fffefe;
   text-decoration: none;
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+}
+.link-big {
+  padding: 20px 40px;
+}
+li > a.link-footer {
+  background: #fff;
+  margin: 15px auto;
+  color: rgb(51, 71, 91);
+  border: 1px solid #fff;
+  font-size: 14px;
+}
+.item-nav .link:visited,.item-nav .link:active, .item-nav .link:link, .item-nav link:hover {
+  color: #fff;
+}
+.item-nav .link-transparent:visited,.item-nav .link-transparent:active, .item-nav .link-transparent:link, .item-nav .link-transparent:hover {
+  color: #E66E50;
+}
+.item-nav .link {
   color: #fffefe;
 }
-.btn > a {
-  text-decoration: none;
-  color: #fffefe;
-}
-button:hover {
+
+.link:hover {
   cursor: pointer;
   opacity: 0.5;
 }
-.btn-footer:hover {
+.link-footer:hover {
   opacity: 0.8;
 }
-.btn-transparent:hover {
+a.link-transparent:hover {
   background-color: #fff1ee;
   opacity: 1;
 }
@@ -183,10 +189,12 @@ li.check-circle {
   vertical-align: middle;
   color: #00a4bd;
 }
-.btn-transparent {
+
+a.link-transparent {
   background: none;
 }
-.item-nav .btn-transparent  a {
+
+.item-nav a.link-transparent  {
   color: #E66E50;
 }
 /* /Header-top-one-nav-right  */
@@ -218,6 +226,10 @@ li.check-circle {
   width: 60%;
   text-align: right;
 }
+.header-top-one-nav-right a.link {
+  display: inline;
+}
+
 /* /Header-top-two-nav-right */
 /* /Header-top-two */
 
@@ -368,7 +380,7 @@ img.features-slogan-img {
 .col-info li {
   text-align: left;
 }
-.col-info .btn{
+.col-info .link{
   margin-top: 40px;
   margin-bottom: 20px;
 }
@@ -498,7 +510,7 @@ li.company-logo {
   padding-right: 50px;
   text-align: justify;
 }
-.main-bottom-section-second-left > .btn  {
+.main-bottom-section-second-left > .link  {
   margin: 30px 0px;
 }
 .main-bottom-section-second-right {
@@ -546,7 +558,7 @@ li.social {
 li.social i.fab{
   color: #cbd6e2;
 }
-.btn-footer  a {
+.link-footer  a {
   color: #33475b;
 }
 /* /Footer links */
